@@ -16,7 +16,7 @@ class AlumnoLibre
 
     public function getNombreApellido()
     {
-        return $this->nombre + $this->apellido;
+        return "Nombre y apellido: $this->nombre $this->apellido";
     }
 
     public function getDni()
