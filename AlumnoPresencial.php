@@ -62,7 +62,7 @@ class AlumnoPresencial
     
     public function __toString()
     {
-        return "El nombre del alumno es $this->nombre $this->apellido, su DNI es $this->dni y su nota final es $this->notaFinal.; 
+        return "El nombre del alumno es $this->nombre $this->apellido, su DNI es $this->dni y su nota final es $this->notaFinal."; 
     }
 
 }
